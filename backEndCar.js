@@ -8,12 +8,18 @@ var  numMot;
 var numCh;
 var idOwner;
 var nameOwner;
-function saveData()
+
+function saveData(plate,nameOwner, model, brand)
 {
    //contador++;
    alert('Placa del vehiculo: '+plate+ '\n' +'Propietario del vehiculo : '+nameOwner+ '\n'+'Marca y modelo del vehiculo: '+model+', '+brand+ '\n');
    
  }
+
+
+
+ 
+
 /*
 Variables
 - Placa (nombre de variable: plate )
